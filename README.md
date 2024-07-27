@@ -7,11 +7,11 @@
   <a href="">
     <img src="./public/aits.png" alt="FEU-TECH AITS" width="130">
   </a>
-  <h3 align="center">Boilerplate for Tauri, NextJS & ShadCN</h3>
+  <h3 align="center">TechSavvy Solutions</h3>
 </div>
 <!-- Complete this-->
 <div align="center">
-    A starter template for building cross-platform desktop applications using Tauri, NextJS & ShadCN.
+    React-Tauri Environment Systems: Sample Project
 </div>
 
 <br />
@@ -36,13 +36,7 @@
       </ol>
     </li>
     <li>
-      <a href="#use-as-template">Use as Template</a>
-    </li>
-    <li>
       <a href="#installation">Installation</a>
-    </li>
-    <li>
-      <a href="#contributor-list">Contributor List</a>
     </li>
   </ol>
 </details>
@@ -51,12 +45,12 @@
 
 ## Overview
 
-This project provides a boilerplate for developing cross-platform desktop applications using Tauri, NextJS, and ShadCN. The purpose of this boilerplate is to offer a robust starting point that incorporates modern web development technologies, enabling developers to quickly create responsive and efficient desktop applications.
+To be added soon... 🚧👷🚧
 
 ### Key Components
-- Develop Windows/Mac/Linux Applications: Utilize Tauri to create cross-platform desktop applications.
-- Utilize Web Development: Leverage the power of NextJS for fast and efficient web development.
-- Utilize Fast Design Framework: Implement ShadCN for a streamlined and cohesive UI design experience.
+- Has Server and Client-Side
+- 4 Page website
+To be completed soon... 🚧👷🚧
 
 ### Technology
 - ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -72,11 +66,6 @@ Web Framework
 Design Framework
 - ![TailWind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 - ![ShadCN](https://img.shields.io/badge/shadcn%2Fui-303030?style=for-the-badge&logo=shadcnui&logoColor=white)
-
-## Use as Template
-To use this project as a template, simply click the "Use this template" button on the GitHub repository page. This will create a new repository with the same directory structure and files. 
-
-[Guide](https://scribehow.com/shared/Create_Repository_Based_on_Template_on_GitHub__uqrFu1o3T3iETD9bBMGFlQ?referrer=workspace)
 
 ## Installation
 Follow these steps to set up and run the project:
@@ -106,8 +95,19 @@ bun postinstall
 # For yarn
 yarn run postinstall
 ```
+3. Install App Dependencies
+```sh
+# For npm
+npm run postinstall
 
-3. Start the development server
+# for bun
+bun postinstall
+
+# For yarn
+yarn run postinstall
+```
+
+4. Start the development server
 ```sh
 # For npm
 npm run dev
@@ -119,7 +119,19 @@ bun dev
 yarn run dev
 ```
 
-4. Package the application: Universal
+5. Start the development application
+```sh
+# For npm
+npm run dev
+
+# for bun
+bun dev
+
+# For yarn
+yarn run dev
+```
+
+6. Package the application: Universal
 ```sh
 # For npm
 npm run build
@@ -164,7 +176,7 @@ bun build:mac
 yarn run build:mac
 ```
 
-5. Preview the Application
+7. Preview the Application in Browser
 ```sh
 # For npm
 npm run start
@@ -175,8 +187,3 @@ bun start
 # For yarn
 yarn run start
 ```
-
-## Contributor List
-<a href="https://github.com/zyx-0314">
-  <img src="./public/nyebe_white.png" width="80px;" alt="Ian Cedric Ramirez"/>
-</a>
