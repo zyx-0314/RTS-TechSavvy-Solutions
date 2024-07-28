@@ -6,10 +6,11 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
+import { cn } from "@/lib/utils"
 
-const ServicesCrumbs = ({ service }: { service: string }) => {
+const ServicesCrumbs = ({ service, className }: { service: string, className: string }) => {
   return (
-    <div className="breadCrumbs">
+    <div className={cn("breadCrumbs", className)}>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
