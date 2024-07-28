@@ -27,7 +27,7 @@ const HeaderNav = () => {
 
   return (
     <header className="flex w-screen justify-between content-center py-8 container">
-      <Image src={'/icon/pokeball.png'} alt={'pokeball'} width="50" height="50" />
+      <Image src={'/logo/company-logo.webp'} alt={'pokeball'} width="50" height="50" />
       <nav className="flex gap-2">
         {
           navigation.map((data, index) => (
