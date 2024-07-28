@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import { cn } from "@/lib/utils"
 
-const ServicesCrumbs = ({ service, className }: { service: string, className: string }) => {
+const ServicesCrumbs = ({ service, className }: { service: string, className?: string }) => {
   return (
     <div className={cn("breadCrumbs", className)}>
       <Breadcrumb>
