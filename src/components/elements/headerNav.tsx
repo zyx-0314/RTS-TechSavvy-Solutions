@@ -27,8 +27,8 @@ const HeaderNav = () => {
 
   return (
     <header className="flex w-screen justify-between content-center py-8 container">
-      <Image src={'/logo/company-logo.webp'} alt={'pokeball'} width="50" height="50" />
-      <nav className="flex gap-2">
+      <Image src={'/logo/company-logo.webp'} alt={'pokeball'} width="70" height="70" />
+      <nav className="flex gap-2 items-center">
         {
           navigation.map((data, index) => (
             <Button key={index} className="bg-transparent hover:bg-transparent text-black hover:text-red-500 font-medium text-base duration-300 p-0">
