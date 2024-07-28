@@ -32,7 +32,7 @@ const Services = () => {
 
 
   return (
-    <>
+    <div className="w-screen h-screen">
       <HeaderNav />
       <section className="container">
         <h2 className={cn("py-5 text-5xl font-semibold")}>Services We Provide</h2>
@@ -53,7 +53,7 @@ const Services = () => {
           }
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
