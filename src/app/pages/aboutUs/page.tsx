@@ -37,7 +37,7 @@ const Services = () => {
   ];
 
   return (
-    <>
+    <div className="w-screen h-screen">
       <HeaderNav />
       <section className="container">
         <div className="top flex p-4">
@@ -76,7 +76,7 @@ const Services = () => {
           ))}
         </div>
       </section>
-    </>
+    </div>
   );
 }
 
