@@ -18,11 +18,7 @@ const HeaderNav = () => {
     {
       label: "About Us",
       link: "/pages/aboutUs",
-    },
-    {
-      label: "Contact Us",
-      link: "/pages/contactUs",
-    },
+    }
   ]
 
   return (
