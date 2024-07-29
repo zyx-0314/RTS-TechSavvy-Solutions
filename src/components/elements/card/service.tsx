@@ -3,9 +3,9 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
-const ServiceCard = ({ index, content, className }: { index: number, content: { title: string; content: string; img: string; link: string }, className?: string }) => {
+const ServiceCard = ({ content, className }: { content: { title: string; content: string; img: string; link: string }, className?: string }) => {
   return (
-    <div key={index} className={cn("border flex p-5 gap-4 rounded-md", className)}>
+    <div className={cn("border flex p-5 gap-4 rounded-md", className)}>
       {content.img &&
         <div className="w-11/12 h-100 relative border-2 rounded-md">
           <Image src={content.img} fill alt={content.title} className="absolute object-cover" />

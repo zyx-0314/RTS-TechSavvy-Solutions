@@ -40,10 +40,11 @@ const Services = () => {
         <div className={cn("cardholder grid grid-cols-2 grid-rows-2 gap-4 py-6")}>
           {
             services.map((content, index) => (
-              <ServiceCard
-                index={index}
-                content={content}
-              />
+              <div key={index}>
+                <ServiceCard
+                  content={content}
+                />
+              </div>
             ))
           }
         </div>
